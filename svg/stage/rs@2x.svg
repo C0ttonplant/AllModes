@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70"
+   height="1919.9999"
+   viewBox="0 0 18.520831 507.99971"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="rs@2x.svg"
+   inkscape:export-filename="/media/cottonplant/Expansion/Windows data/Programs/osu!/Skins/AllModesV3/stage/rs@2x.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1"
+     inkscape:cx="-113.5"
+     inkscape:cy="1242.5"
+     inkscape:window-width="1360"
+     inkscape:window-height="734"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     units="px"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     showguides="true">
+    <sodipodi:guide
+       position="0,507.99981"
+       orientation="0,70"
+       id="guide841" />
+    <sodipodi:guide
+       position="18.520827,507.99981"
+       orientation="1919.9999,0"
+       id="guide843" />
+    <sodipodi:guide
+       position="18.520827,0"
+       orientation="0,-70"
+       id="guide845" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-1919.9999,0"
+       id="guide847" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path40465" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path40462" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(580.15778,991.45312)">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:42.3334;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:5.99998;stroke-opacity:0.994916"
+       id="rect112997"
+       width="18.520828"
+       height="507.99982"
+       x="-580.15778"
+       y="-991.45312" />
+    <rect
+       style="fill:#8d72b9;stroke:none;stroke-width:126.624;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:5.99998;stroke-opacity:0.994916"
+       id="rect112769"
+       width="8.9958305"
+       height="207.43326"
+       x="-572.74945"
+       y="-991.45312"
+       rx="0"
+       ry="0"
+       inkscape:export-filename="/media/cottonplant/Expansion/Windows data/Programs/osu!/Skins/AllModesV3/stage/rs@2x.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#8d72b9;stroke:none;stroke-width:182.665;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:5.99998;stroke-opacity:0.994916"
+       id="rect839"
+       width="7.672914"
+       height="507.99982"
+       x="572.48456"
+       y="-991.45312"
+       rx="0"
+       ry="4.5263309e-06"
+       inkscape:export-filename="/media/cottonplant/Expansion/Windows data/Programs/osu!/Skins/AllModesV3/stage/rs@2x.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       transform="scale(-1,1)" />
+  </g>
+</svg>

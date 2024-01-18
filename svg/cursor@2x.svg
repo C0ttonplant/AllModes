@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40.216667mm"
+   height="40.216667mm"
+   viewBox="0 0 40.216667 40.216667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="cursor@2x.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:zoom="2.2627666"
+     inkscape:cx="87.503503"
+     inkscape:cy="100.0987"
+     inkscape:window-width="1107"
+     inkscape:window-height="576"
+     inkscape:window-x="1746"
+     inkscape:window-y="190"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="0,40.216668"
+       orientation="0,152"
+       id="guide836" />
+    <sodipodi:guide
+       position="40.216668,40.216668"
+       orientation="152,0"
+       id="guide838" />
+    <sodipodi:guide
+       position="40.216668,0"
+       orientation="0,-152"
+       id="guide840" />
+    <sodipodi:guide
+       position="20.108334,20.108338"
+       orientation="-152,0"
+       id="guide842" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-65.483795,-205.33104)">
+    <circle
+       style="fill:#8d72b9;fill-opacity:1;stroke:#fbe1ec;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:5.99998;stroke-opacity:1"
+       id="path1350"
+       cx="85.592133"
+       cy="225.43938"
+       r="7.4568558" />
+  </g>
+</svg>
