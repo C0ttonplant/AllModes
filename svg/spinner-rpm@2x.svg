@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1644"
+   height="116"
+   viewBox="0 0 434.97496 30.691651"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="spinner-rpm@2x.svg"
+   inkscape:export-filename="/media/cottonplant/Expansion/Windows data/Programs/osu!/Skins/017Allmodes V2(purplescript)/spinner-rpm@2x.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.64"
+     inkscape:cx="295.3125"
+     inkscape:cy="-91.40625"
+     inkscape:window-width="1360"
+     inkscape:window-height="734"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     units="px"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     showguides="true" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path40465" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path40462" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(825.41351,642.71643)">
+    <g
+       id="g61539"
+       transform="translate(7.9374975)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.96875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:5.99998"
+         id="rect61516"
+         width="68.791641"
+         height="36.447075"
+         x="678.96667"
+         y="-640.73206"
+         rx="0"
+         ry="0"
+         transform="scale(-1,1)" />
+      <rect
+         style="fill:#8d72b9;fill-opacity:1;stroke:none;stroke-width:3.96875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:5.99998"
+         id="rect61390"
+         width="74.612473"
+         height="36.447075"
+         x="-822.37079"
+         y="-640.73206"
+         rx="0"
+         ry="0" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#8d41bb;stroke-width:3.96875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:5.99998"
+         id="rect61140"
+         width="143.40413"
+         height="36.347584"
+         x="-822.37079"
+         y="-640.73206"
+         rx="4.8686295"
+         ry="4.868629" />
+    </g>
+    <g
+       aria-label="RPM"
+       id="text53148"
+       style="font-size:25.4px;line-height:1.25;fill:#fbe1ec;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round"
+       transform="translate(6.8791645,0.52916651)">
+      <path
+         d="m -807.67041,-624.34962 v 6.73447 q 0,0.59531 -0.40928,0.96738 -0.50849,0.45889 -1.32705,0.45889 -1.0666,0 -1.52549,-0.71934 -0.19843,-0.29765 -0.19843,-0.70693 v -14.32471 q 0,-3.07578 3.07578,-3.07578 h 4.52685 q 2.69131,0 4.36563,0.88057 0.95498,0.5085 1.6123,1.36426 1.00459,1.28984 1.00459,3.02617 0,4.17959 -4.57646,4.96094 l 4.96093,6.02754 q 0.33487,0.40927 0.33487,0.93017 0,0.86817 -0.76895,1.30225 -0.57051,0.32246 -1.20302,0.32246 -1.017,0 -1.64952,-0.88057 l -5.17177,-7.26777 z m 0,-2.79053 h 3.58428 q 3.80752,0 3.80752,-2.55488 0,-2.48047 -3.6835,-2.48047 h -3.1998 q -0.5085,0 -0.5085,0.5085 z"
+         style="font-family:'UD Digi Kyokasho NK-B';-inkscape-font-specification:'UD Digi Kyokasho NK-B'"
+         id="path62563" />
+      <path
+         d="m -789.27774,-623.33263 v 5.74229 q 0,0.43408 -0.24804,0.76894 -0.47129,0.63252 -1.50069,0.63252 -0.88056,0 -1.37666,-0.49609 -0.35966,-0.35967 -0.35966,-0.90537 v -14.56036 q 0,-2.86494 2.85254,-2.86494 h 4.2416 q 2.93935,0 4.92373,1.16582 2.56728,1.51309 2.56728,4.51446 0,3.2122 -2.36885,4.73769 -1.95957,1.26504 -5.22138,1.26504 z m 0,-2.86494 h 3.58428 q 1.83555,0 2.85254,-0.79375 1.00459,-0.79375 1.00459,-2.25723 0,-1.6247 -1.35185,-2.36884 -0.91778,-0.5085 -2.38125,-0.5085 h -3.1502 q -0.55811,0 -0.55811,0.5581 z"
+         style="font-family:'UD Digi Kyokasho NK-B';-inkscape-font-specification:'UD Digi Kyokasho NK-B'"
+         id="path62565" />
+      <path
+         d="m -771.80283,-631.48097 0.14883,13.91543 q 0.0124,0.37207 -0.17364,0.66973 -0.44648,0.70693 -1.48828,0.70693 -0.81855,0 -1.30224,-0.47129 -0.35967,-0.35967 -0.35967,-0.90537 v -15.00684 q 0,-1.28984 0.88056,-2.04638 0.78135,-0.66973 2.00918,-0.66973 2.19522,0 2.92696,2.15801 l 4.11758,12.1915 4.11757,-12.1915 q 0.71934,-2.15801 2.93936,-2.15801 1.41387,0 2.20762,0.88057 0.66972,0.73174 0.66972,1.83554 v 15.00684 q 0,0.5333 -0.34726,0.89297 -0.47129,0.48369 -1.30225,0.48369 -0.86816,0 -1.35185,-0.5209 -0.33487,-0.34726 -0.32247,-0.85576 l 0.14883,-13.91543 -4.55166,13.13408 q -0.18603,0.5209 -0.49609,0.90537 -0.68213,0.81856 -1.69912,0.81856 -1.62471,0 -2.22002,-1.72393 z"
+         style="font-family:'UD Digi Kyokasho NK-B';-inkscape-font-specification:'UD Digi Kyokasho NK-B'"
+         id="path62567" />
+    </g>
+  </g>
+</svg>

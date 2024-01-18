@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="142"
+   height="142"
+   viewBox="0 0 142 142"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="selection-mod-relax@2x.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/media/cottonplant/Expansion/Windows data/Programs/osu!/Skins/017Allmodes V2(purplescript)/selection-mod-relax@2x.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.162062"
+     inkscape:cx="70.049227"
+     inkscape:cy="70.681726"
+     inkscape:window-width="1360"
+     inkscape:window-height="734"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     style="display:inline">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#fbe1ec;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect858"
+       width="127"
+       height="127"
+       x="7.5"
+       y="7.5"
+       ry="7.0455709"
+       rx="7.0455709" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#fbe1ec;fill-opacity:1;stroke:none;stroke-width:1"
+       x="71.177055"
+       y="40.259068"
+       id="text3705"><tspan
+         id="tspan3703"
+         x="71.177055"
+         y="40.259068"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;font-family:'UD Digi Kyokasho NK-B';-inkscape-font-specification:'UD Digi Kyokasho NK-B';stroke-width:1">Relax</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#fbe1ec;stroke:#8d72b9;stroke-width:3.00468;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:5.99998;paint-order:stroke fill markers"
+       id="path2880"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="67.942378"
+       sodipodi:cy="90.32637"
+       sodipodi:r1="43.107277"
+       sodipodi:r2="23.75211"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-0.94247777"
+       inkscape:rounded="0.123"
+       inkscape:randomized="0"
+       d="m 67.942379,47.219093 c 3.403598,0 11.207571,21.890833 13.96114,23.891417 2.753568,2.000585 25.984551,2.657967 27.036321,5.89498 1.05176,3.237014 -17.356094,17.423673 -18.407863,20.660686 -1.05177,3.237014 5.50179,25.534134 2.748222,27.534714 -2.753568,2.00058 -21.934224,-11.12241 -25.337821,-11.12241 -3.403598,0 -22.584254,13.12299 -25.337822,11.12241 -2.753568,-2.00059 3.799993,-24.2977 2.748224,-27.534715 C 44.30101,94.429162 25.893153,80.242501 26.944922,77.005488 27.996692,73.768475 51.227671,73.111094 53.981239,71.11051 56.734807,69.109925 64.538782,47.219093 67.942379,47.219093 Z"
+       inkscape:transform-center-y="-4.1099679"
+       transform="matrix(0.99844515,0,0,0.99844266,3.1632673,2.3544432)" />
+  </g>
+</svg>
