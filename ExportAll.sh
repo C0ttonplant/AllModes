@@ -5,8 +5,7 @@ mkdir ./notes\ \(arrow\)
 mkdir ./notes\ \(bar\)
 mkdir ./stage
 
-gcc colors.cpp -lstdc++ -std=c++20
-./a.out
+python3 ./colors.py
 
 for f in ./svg/*.svg
 do
