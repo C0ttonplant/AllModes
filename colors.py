@@ -1,45 +1,5 @@
 import os
 
-def hex_str_to_color_str(hex_str: str) -> str:
-    hex_n = hex_str.removeprefix('#')
-    r = hex_n[0] + hex_n[1]
-    g = hex_n[2] + hex_n[3]
-    b = hex_n[4] + hex_n[5]
-
-    ri = int(r, 16)
-    gi = int(g, 16)
-    bi = int(b, 16)
-
-    return f"{ri}, {gi}, {bi}"
-
-def save_ini_files() -> None:
-
-    file_save_dir = ""
-
-    if chose_ini_file == 1:
-        file_save_dir = "./skin.ini"
-    else:
-        file_save_dir = "./skin_circle.ini"
-
-    f = open(file_save_dir, "w")
-    f.write(circle_ini)
-
-    if chose_ini_file == 2:
-        file_save_dir = "./skin.ini"
-    else:
-        file_save_dir = "./skin_arrow.ini"
-
-    f = open(file_save_dir, "w")
-    f.write(arrow_ini)
-
-    if chose_ini_file == 3:
-        file_save_dir = "./skin.ini"
-    else:
-        file_save_dir = "./skin_bar.ini"
-
-    f = open(file_save_dir, "w")
-    f.write(bar_ini)
-
 circle_ini = open("./ini/skin (circle).ini", "r").read()
 bar_ini = open("./ini/skin (bar).ini", "r").read()
 arrow_ini = open("./ini/skin (arrow).ini", "r").read()
@@ -53,6 +13,65 @@ color_heighlight = "#fbe1ec"
 color_dark_new = ""
 color_light_new = ""
 color_heighlight_new = ""
+
+def hex_str_to_color_str(hex_str: str) -> str:
+    hex_n = hex_str.removeprefix('#')
+    r = hex_n[0] + hex_n[1]
+    g = hex_n[2] + hex_n[3]
+    b = hex_n[4] + hex_n[5]
+
+    ri = int(r, 16)
+    gi = int(g, 16)
+    bi = int(b, 16)
+
+    return f"{ri}, {gi}, {bi}"
+
+def save_ini_files() -> None:
+    global circle_ini
+    global arrow_ini
+    global bar_ini
+
+    circle_ini = circle_ini.replace("{Light}", hex_str_to_color_str(color_light_new))
+    circle_ini = circle_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
+    circle_ini = circle_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
+
+    arrow_ini = circle_ini.replace("{Light}", hex_str_to_color_str(color_light_new))
+    arrow_ini = circle_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
+    arrow_ini = circle_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
+
+    bar_ini = circle_ini.replace("{Light}", hex_str_to_color_str(color_light_new))
+    bar_ini = circle_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
+    bar_ini = circle_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
+
+
+    file_save_dir = ""
+
+    if chose_ini_file == 1:
+        file_save_dir = "./skin.ini"
+    else:
+        file_save_dir = "./skin_circle.ini"
+
+    f = open(file_save_dir, "w")
+    f.write(circle_ini)
+    f.close()
+
+    if chose_ini_file == 2:
+        file_save_dir = "./skin.ini"
+    else:
+        file_save_dir = "./skin_arrow.ini"
+
+    f = open(file_save_dir, "w")
+    f.write(arrow_ini)
+    f.close()
+
+    if chose_ini_file == 3:
+        file_save_dir = "./skin.ini"
+    else:
+        file_save_dir = "./skin_bar.ini"
+
+    f = open(file_save_dir, "w")
+    f.write(bar_ini)
+    f.close()
 
 print("Type the hex for the colors you want, leave blank for default.\n")
 
@@ -110,18 +129,6 @@ while(True):
         print("Invalid input, try again.\n")
         continue
 
-circle_ini = circle_ini.replace("{Light}", hex_str_to_color_str(color_light_new))
-circle_ini = circle_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
-circle_ini = circle_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
-
-arrow_ini = circle_ini.replace("{Light}", hex_str_to_color_str(color_light_new))
-arrow_ini = circle_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
-arrow_ini = circle_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
-
-bar_ini = circle_ini.replace("{Light}", hex_str_to_color_str(color_light_new))
-bar_ini = circle_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
-bar_ini = circle_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
-
 print('\nType the index of the mania skin you prefer, leave blank for default.\n1. circles\n2. arrows\n3. bars\n')
 
 while(True):
@@ -144,12 +151,17 @@ while(True):
 save_ini_files()
 
 # also update the values in this python file (cursed)
-this_file = open("./colors.py", "w")
+this_file = open("./colors.py", "r")
 fs = this_file.read()
+this_file.close()
 
 fs = fs.replace(color_dark, color_dark_new)
 fs = fs.replace(color_light, color_light_new)
 fs = fs.replace(color_heighlight, color_heighlight_new)
+
+this_file = open("./colors.py", "w")
+this_file.write(fs)
+this_file.close()
 
 # directory = os.fsencode("./svg/")
 #     
