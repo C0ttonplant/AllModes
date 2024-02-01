@@ -1,4 +1,4 @@
-import os
+from pathlib import Path
 
 circle_ini = open("./ini/skin (circle).ini", "r").read()
 bar_ini = open("./ini/skin (bar).ini", "r").read()
@@ -163,12 +163,19 @@ this_file = open("./colors.py", "w")
 this_file.write(fs)
 this_file.close()
 
-# directory = os.fsencode("./svg/")
-#     
-# for file in os.listdir(directory):
-#     filename = os.fsdecode(file)
-#     if filename.endswith(".svg"): 
-#         print(os.path.join(directory, filename))
-#         continue
-#     else:
-#         continue
+pathlist = Path().glob('./svg/**/*.svg')
+for path in pathlist:
+    path_in_str = str(path)   
+    print(path_in_str)
+    
+    this_file = open("./" + path_in_str, "r")
+    fs = this_file.read()
+    this_file.close()
+
+    fs = fs.replace(color_dark, color_dark_new)
+    fs = fs.replace(color_light, color_light_new)
+    fs = fs.replace(color_heighlight, color_heighlight_new)
+
+    this_file = open("./" + path_in_str, "w")
+    this_file.write(fs)
+    this_file.close()
