@@ -12,6 +12,34 @@ def hex_str_to_color_str(hex_str: str) -> str:
 
     return f"{ri}, {gi}, {bi}"
 
+def save_ini_files() ->void:
+
+    file_save_dir = ""
+
+    if chose_ini_file == 1:
+        file_save_dir = "./skin.ini"
+    else:
+        file_save_dir = "./skin_circle.ini"
+
+    f = open(file_save_dir, "w")
+    f.write(circle_ini)
+
+    if chose_ini_file == 2:
+        file_save_dir = "./skin.ini"
+    else:
+        file_save_dir = "./skin_arrow.ini"
+
+    f = open(file_save_dir, "w")
+    f.write(arrow_ini)
+
+    if chose_ini_file == 3:
+        file_save_dir = "./skin.ini"
+    else:
+        file_save_dir = "./skin_bar.ini"
+
+    f = open(file_save_dir, "w")
+    f.write(bar_ini)
+
 circle_ini = open("./ini/skin (circle).ini", "r").read()
 bar_ini = open("./ini/skin (bar).ini", "r").read()
 arrow_ini = open("./ini/skin (arrow).ini", "r").read()
@@ -121,32 +149,7 @@ while(True):
     chose_ini_file = n
     break
 
-file_save_dir = ""
-
-if chose_ini_file == 1:
-    file_save_dir = "./skin.ini"
-else:
-    file_save_dir = "./skin_circle.ini"
-
-f = open(file_save_dir, "w")
-f.write(circle_ini)
-
-if chose_ini_file == 2:
-    file_save_dir = "./skin.ini"
-else:
-    file_save_dir = "./skin_arrow.ini"
-
-f = open(file_save_dir, "w")
-f.write(arrow_ini)
-
-if chose_ini_file == 3:
-    file_save_dir = "./skin.ini"
-else:
-    file_save_dir = "./skin_bar.ini"
-
-f = open(file_save_dir, "w")
-f.write(bar_ini)
-
+save_ini_files()
 
 # directory = os.fsencode("./svg/")
 #     
