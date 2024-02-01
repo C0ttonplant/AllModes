@@ -10,4 +10,5 @@ please use these svg files for your own projects, even if it may not be for osu.
 
 ## Exporting
 - make sure that python and inkscape are in a PATH directory
-- run `ExportAll.sh`
+- gcc
+- a bash terminal (command prompt wont work)
