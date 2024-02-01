@@ -2067,7 +2067,7 @@ int main(int const args, char const*const* argv)
     
     while(1)
     {
-        std::cout << "Type the hex that you want for the light color.\ncurrent: " << Color::Dark << "\n" << std::endl;
+        std::cout << "Type the hex that you want for the light color.\ncurrent: " << Color::Light << "\n" << std::endl;
         std::cin >> newLight;
         
         if(std::cin.fail())
@@ -2080,7 +2080,7 @@ int main(int const args, char const*const* argv)
     
     while(1)
     {
-        std::cout << "Type the hex that you want for the heighlight color.\ncurrent: " << Color::Dark << "\n" << std::endl;
+        std::cout << "Type the hex that you want for the heighlight color.\ncurrent: " << Color::Heighlight << "\n" << std::endl;
         std::cin >> newHeighlight;
         
         if(std::cin.fail())
