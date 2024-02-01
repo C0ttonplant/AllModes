@@ -12,7 +12,7 @@ def hex_str_to_color_str(hex_str: str) -> str:
 
     return f"{ri}, {gi}, {bi}"
 
-def save_ini_files() ->void:
+def save_ini_files() -> None:
 
     file_save_dir = ""
 
@@ -122,14 +122,6 @@ bar_ini = circle_ini.replace("{Light}", hex_str_to_color_str(color_light_new))
 bar_ini = circle_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
 bar_ini = circle_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
 
-# also update the values in this python file (cursed)
-this_file = open("./colors.py", "w")
-fs = this_file.read()
-
-fs = fs.replace(color_dark, color_dark_new)
-fs = fs.replace(color_light, color_light_new)
-fs = fs.replace(color_heighlight, color_heighlight_new)
-
 print('\nType the index of the mania skin you prefer, leave blank for default.\n1. circles\n2. arrows\n3. bars\n')
 
 while(True):
@@ -150,6 +142,14 @@ while(True):
     break
 
 save_ini_files()
+
+# also update the values in this python file (cursed)
+this_file = open("./colors.py", "w")
+fs = this_file.read()
+
+fs = fs.replace(color_dark, color_dark_new)
+fs = fs.replace(color_light, color_light_new)
+fs = fs.replace(color_heighlight, color_heighlight_new)
 
 # directory = os.fsencode("./svg/")
 #     
