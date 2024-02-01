@@ -112,7 +112,7 @@ while(True):
         continue
 
 while(True):
-    c = input(f"Replace dark color {color_dark} with: ")
+    c = input(f"Replace heighlight color {color_heighlight} with: ")
     if c.__len__() == 0:
         color_heighlight_new = color_heighlight
         break
