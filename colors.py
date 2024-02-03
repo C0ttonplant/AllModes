@@ -35,13 +35,13 @@ def save_ini_files() -> None:
     circle_ini = circle_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
     circle_ini = circle_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
 
-    arrow_ini = circle_ini.replace("{Light}", hex_str_to_color_str(color_light_new))
-    arrow_ini = circle_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
-    arrow_ini = circle_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
+    arrow_ini = arrow_ini.replace("{Light}", hex_str_to_color_str(color_light_new))
+    arrow_ini = arrow_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
+    arrow_ini = arrow_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
 
-    bar_ini = circle_ini.replace("{Light}", hex_str_to_color_str(color_light_new))
-    bar_ini = circle_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
-    bar_ini = circle_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
+    bar_ini = bar_ini.replace("{Light}", hex_str_to_color_str(color_light_new))
+    bar_ini = bar_ini.replace("{Heighlight}", hex_str_to_color_str(color_heighlight_new))
+    bar_ini = bar_ini.replace("{Dark}", hex_str_to_color_str(color_dark_new))
 
 
     file_save_dir = ""
